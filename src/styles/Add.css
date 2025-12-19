@@ -1,0 +1,103 @@
+.add-container {
+  background-color: #f6f7fb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+}
+
+.add-card {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 40px 50px;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.add-card.professional {
+  border-top: 6px solid #4a90e2;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #666;
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  background-color: white;
+  margin-left: 55px;
+  margin-top: 30px;
+}
+
+.forms {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+}
+
+.forms input {
+  padding: 12px 14px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.forms input::placeholder {
+  color: #aaa;
+}
+
+.forms input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.15);
+  outline: none;
+}
+
+.forms button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #4399fb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.forms button:hover {
+  background-color: #357abd;
+  transform: translateY(-1px);
+}
+
+.forms button:active {
+  background-color:rgb(0, 136, 255);
+}
+
+@media (max-width: 600px) {
+  .add-card {
+    padding: 30px 25px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+}

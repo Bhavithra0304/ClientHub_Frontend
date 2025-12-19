@@ -1,0 +1,104 @@
+.home {
+  color: #000;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.3rem;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+.hero-content p {
+  font-size: 1rem;
+  margin-bottom: 25px;
+  margin-left: 250px;
+  color: #000;
+  background-color: aliceblue;
+}
+.heading{
+    background-color: aliceblue;
+}
+.primary-btn {
+  padding: 12px 28px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #1e40af;
+}
+
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  max-width: 750px;
+  margin: 10px auto;
+  line-height: 1.7;
+  background-color: aliceblue;
+}
+.about-content{
+    background-color: aliceblue;
+}
+.modules {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.modules h2 {
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  width: 250px;
+  background-color: #2563eb;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  background-color: #2563eb;
+  color: white;
+}
+
+.card p {
+  font-size: 0.92rem;
+  color: #000;
+  background-color: #2563eb;
+  color: white;
+
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}

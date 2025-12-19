@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 8px 30px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #285ae4;
+
+}
+
+.header img{
+  width: 70px;
+  height: 60px;
+}
+
+.links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  background-color: #285ae4;
+}
+.links a{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  justify-content: space-between;
+  background-color: #285ae4;
+color: white;
+}
+
+.links .active{
+  color: rgb(215, 141, 3);
+  font-size: 18px;
+
+}
