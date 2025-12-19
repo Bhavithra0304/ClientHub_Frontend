@@ -25,7 +25,7 @@ const View = () => {
   const handleUpdateSubmit = async (formData) => {
     try {
       const res = await fetch(
-        `http://localhost:5000/api/customers/${editUser._id}`,
+        `https://clienthub-backend.onrender.com/api/customers/${editUser._id}`,
         {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
