@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
   const fetchAPI = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/customers");
+      const response = await fetch("https://clienthub-backend.onrender.com/api/customers");
       const resdata = await response.json();
       setData(resdata);
     } catch (err) {
