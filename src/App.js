@@ -21,7 +21,7 @@ function App() {
 
 const deleteUser = async (id) => {
   try {
-    await fetch(`http://localhost:5000/api/customers/${id}`, {
+    await fetch(`https://clienthub-backend.onrender.com/api/customers/${id}`, {
       method: "DELETE",
     });
 
