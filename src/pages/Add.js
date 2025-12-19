@@ -10,7 +10,7 @@ const Add = () => {
 
   const onsubmitHandler = async (dataValue) => {
   try {
-    const res = await fetch("http://localhost:5000/api/customers", {
+    const res = await fetch("https://clienthub-backend.onrender.com/api/customers", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(dataValue),
